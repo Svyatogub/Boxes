@@ -1,0 +1,55 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    .box{
+        margin-left: 10vw;
+        margin-top: 14vh;
+        select {
+            width: 170px;
+            height: 30px;
+            outline: none;
+            margin-bottom: 10%;
+        }
+    }  
+}
+    .Button {
+        margin-top: 14vh;
+        button {
+            margin-left: 10px;
+            width: 80px;
+            height: 30px;
+            background-color: blue;
+            border: 1px solid lightblue;
+            border-radius: 7px;
+            color: white;
+        }
+    }
+    .hover {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        color: black;
+        margin-top: 11.5vh;
+        margin-left: 30%;
+        .hovered { 
+            p {
+                margin-top: -2px;
+                display: flex;
+                height: 30px;
+                color: #bd7604;
+                background-color: #ffefb8;
+                border: 1px solid #ffe58c;
+                border-radius: 5px;
+                padding-top: 5%;
+                padding-left: 15%;
+            }
+        }
+    }
+    .Box {
+        position: absolute;
+        margin-top: 20vh;
+        margin-left: 8%;
+    }
+
+
+
